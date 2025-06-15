@@ -25,22 +25,22 @@ int main() {
     printf("Digite o estado (letra de A a H): ");
     scanf(" %c", &estado1); // espaço antes do %c é importante para ignorar enter anterior
 
-    printf("Digite o código da carta (ex: A01): ");
+    printf("Digite o codigo da carta (ex: A01): ");
     scanf("%s", codigo1);
 
     printf("Digite o nome da cidade: ");
     scanf(" %[^\n]", nomeCidade1); // permite ler com espaços
 
-    printf("Digite a população: ");
+    printf("Digite a populacao: ");
     scanf("%d", &populacao1);
 
-    printf("Digite a área da cidade (em km²): ");
+    printf("Digite a área da cidade (em km quadrados): ");
     scanf("%f", &area1);
 
-    printf("Digite o PIB da cidade (em bilhões de reais): ");
+    printf("Digite o PIB da cidade (em bilhoes de reais): ");
     scanf("%f", &pib1);
 
-    printf("Digite o número de pontos turísticos: ");
+    printf("Digite o número de pontos turisticos: ");
     scanf("%d", &pontosTuristicos1);
 
 
@@ -50,22 +50,22 @@ int main() {
     printf("Digite o estado (letra de A a H): ");
     scanf(" %c", &estado2);
 
-    printf("Digite o código da carta (ex: B02): ");
+    printf("Digite o codigo da carta (ex: B02): ");
     scanf("%s", codigo2);
 
     printf("Digite o nome da cidade: ");
     scanf(" %[^\n]", nomeCidade2);
 
-    printf("Digite a população: ");
+    printf("Digite a populacao: ");
     scanf("%d", &populacao2);
 
-    printf("Digite a área da cidade (em km²): ");
+    printf("Digite a area da cidade (em km quadrados): ");
     scanf("%f", &area2);
 
-    printf("Digite o PIB da cidade (em bilhões de reais): ");
+    printf("Digite o PIB da cidade (em bilhoes de reais): ");
     scanf("%f", &pib2);
 
-    printf("Digite o número de pontos turísticos: ");
+    printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos2);
 
 
